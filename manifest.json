@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "daily akari solver",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://dailyakari.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["image/*", "opencv.js", "sandbox.html"],
+      "matches": ["https://dailyakari.com/*"]
+    }
+  ],
+  "sandbox": {
+    "pages": ["sandbox.html"]
+  }
+}
