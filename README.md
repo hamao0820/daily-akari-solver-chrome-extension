@@ -20,8 +20,7 @@
 
 1. [Daily Akari](https://dailyakari.com/)の問題ページを開く
 2. ページ右上に表示される「✨ Solve Akari」ボタンをクリック
-3. 画像解析が実行され、自動的に解答が入力されます
-4. 必要に応じて結果を確認・修正してから提出してください
+3. 回答が自動的に入力されます
 
 ## Third Party Libraries
 
