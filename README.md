@@ -23,14 +23,6 @@
 3. 画像解析が実行され、自動的に解答が入力されます
 4. 必要に応じて結果を確認・修正してから提出してください
 
-## 技術詳細
-
-この拡張機能は以下の技術を使用しています：
-
-- **OpenCV.js**: セルの検出と画像処理
-- **Chrome Extensions Manifest V3**: 最新のChrome拡張機能API
-- **Sandbox iframe**: OpenCV.jsを安全に実行するための分離環境
-
 ## Third Party Libraries
 
 This project includes OpenCV.js (version 4.12.0) from the official OpenCV documentation:
